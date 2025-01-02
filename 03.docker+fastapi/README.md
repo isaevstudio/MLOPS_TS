@@ -27,7 +27,7 @@ As we move to day 3, the 10-day predictions will become even more accurate
 than those for day 1 and 2, and so on.
 
 
-# 3. Objective (This section will be updated as needed based on the latest version of the app uploaded):
+# 3. Objective:
 - integrate fastapi and pydantic
 - dockerize the app
 where, pydantic is used for path validation in this project. Without Pydantic, a path error would occur when triggering the endpoint. By leveraging Pydantic, we can ensure that all paths are validated before running the project, preventing errors during execution.

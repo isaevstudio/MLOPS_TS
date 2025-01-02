@@ -1,6 +1,6 @@
-# The first two sections, explaining how the app works and the prediction for 10 days ahead, can be skipped.
+# The first two sections, explaining how the app works and the prediction for 10 days ahead, can be skipped. Starting from section 3 MUST read.
 
-# How the App Works
+# 1. How the App Works
 This project focuses on stock price prediction. The steps outlined in the main README file will prepare and split the data by days, 
 simulating upcoming days that need to be predicted.
 
@@ -9,7 +9,7 @@ The prediction occurs for the next day, and when you open the localhost, the Str
 with no need to refresh the web page.
 
 
-# Info on trained model
+# 2. Info on trained model
 
 The model is trained to predict 10 days ahead, but for simplicity, 
 we'll predict only 1 day ahead and ignore the remaining 9 days.
@@ -27,14 +27,12 @@ As we move to day 3, the 10-day predictions will become even more accurate
 than those for day 1 and 2, and so on.
 
 
-# IMPORTANT
-
-# Objective (This section will be updated as needed based on the latest version of the app uploaded):
+# 3. Objective (This section will be updated as needed based on the latest version of the app uploaded):
 - integrate fastapi and pydantic
 - dockerize the app
 where, pydantic is used for path validation in this project. Without Pydantic, a path error would occur when triggering the endpoint. By leveraging Pydantic, we can ensure that all paths are validated before running the project, preventing errors during execution.
 
-# Steps to Run the Project
+# 4. Steps to Run the Project
 1. Download Necessary Files
 Follow the instructions to download all the required files from Google Drive.
 2. Prepare Raw Data
@@ -54,7 +52,7 @@ Create a .env file to configure the paths required by the project. Use the follo
 After downloading the missing files and generating the raw data, proceed to run the model.py file.
 
 
-# Important Notes
+# 5. Important Notes
 Due to size limitations, the fine-tuned FinBERT model and the saved TSMIXER model are not included in the repository.
 Download the missing folders from this link: https://drive.google.com/drive/folders/1Di09f_7f2wqDtsTu_p0yDpTDQf8H7lT1?usp=sharing/
 

@@ -38,15 +38,15 @@ Follow the instructions to download all the required files from Google Drive.
 2. Prepare Raw Data
 Execute the dataset_prepare_raw_data.ipynb notebook to generate the raw data needed for predictions.
 3. Set Up Environment Variables
-Create a .env file to configure the paths required by the project. Use the following structure and the paths:
-    df_predict_path='/app/dataset_new/price_news_integrate/' <br>
-    finetuned_model_path='/app/finetuned_finbert_model/' <br>
-    model_file='/app/saved_model/' <br>
-    integrated_data_path='/app/dataset_new/price_news_integrate/' <br>
-    saved_model='/app/saved_model/' <br>
-    future_imitate='/app/dataset_new/future_imitate/' <br>
-    prices_by_day='/app/dataset_new/prices_by_day/' <br>
-    news_by_day='/app/dataset_new/news_by_day/' <br>
+Create a .env file to configure the paths required by the project. Use the following structure and the paths: <br>
+    - df_predict_path='/app/dataset_new/price_news_integrate/' <br>
+    - finetuned_model_path='/app/finetuned_finbert_model/' <br>
+    - model_file='/app/saved_model/' <br>
+    - integrated_data_path='/app/dataset_new/price_news_integrate/' <br>
+    - saved_model='/app/saved_model/' <br>
+    - future_imitate='/app/dataset_new/future_imitate/' <br>
+    - prices_by_day='/app/dataset_new/prices_by_day/' <br>
+    - news_by_day='/app/dataset_new/news_by_day/' <br>
    
 4. Download Missing Files and Models
 After downloading the missing files and generating the raw data, proceed to run the model.py file.

@@ -1,4 +1,4 @@
-# Objective:
+# Objective (This section will be updated as needed based on the latest version of the app uploaded):
 - integrate fastapi and pydantic
 - dockerize the app
 where, pydantic is used for path validation in this project. Without Pydantic, a path error would occur when triggering the endpoint. By leveraging Pydantic, we can ensure that all paths are validated before running the project, preventing errors during execution.
